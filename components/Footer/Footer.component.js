@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HomeFooter.module.scss';
+import styles from './Footer.module.scss';
 
 function HomeFooterComponent() {
   return <footer className={styles.footer}>Footer</footer>;

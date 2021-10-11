@@ -9,7 +9,8 @@ export const challengesData = [
       'Unique grid layout',
       'Multi-column footer'
     ],
-    link: 'https://www.ableton.com/en/about/'
+    link: '/practice/ableton',
+    externalLink: 'https://www.ableton.com/en/about/'
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ export const challengesData = [
       'Color choices',
       'Layout practice'
     ],
-    link: 'https://www.starbucks.com/rewards'
+    link: '/practice/ableton',
+    externalLink: 'https://www.starbucks.com/rewards'
   },
   {
     id: 3,
@@ -33,7 +35,8 @@ export const challengesData = [
       'Dropdown menu',
       'Menu toggle on scroll'
     ],
-    link: 'https://monogramcc.com/shop/'
+    link: '/practice/ableton',
+    externalLink: 'https://monogramcc.com/shop/'
   },
   {
     id: 4,
@@ -45,21 +48,24 @@ export const challengesData = [
       'Layout practice',
       'Hover states'
     ],
-    link: 'https://www.monstercat.com/release/MCLP017'
+    link: '/practice/ableton',
+    externalLink: 'https://www.monstercat.com/release/MCLP017'
   },
   {
     id: 5,
     label: 'Canal Street Market',
     subLabel: 'Home page',
     learnt: ['Unique layout', 'Hover animations', 'Typography choices'],
-    link: 'https://canalstreet.market/'
+    link: '/practice/ableton',
+    externalLink: 'https://canalstreet.market/'
   },
   {
     id: 6,
     label: 'Qrates',
     subLabel: 'Why page',
     learnt: ['Accordions', 'Grid style layout', 'Unique design'],
-    link: 'https://qrates.com/why'
+    link: '/practice/ableton',
+    externalLink: 'https://qrates.com/why'
   },
   {
     id: 7,
@@ -71,7 +77,8 @@ export const challengesData = [
       'Fixed content',
       'Minimal layout'
     ],
-    link: 'https://backstagetalks.com/'
+    link: '/practice/ableton',
+    externalLink: 'https://backstagetalks.com/'
   },
   {
     id: 8,
@@ -83,14 +90,16 @@ export const challengesData = [
       'Draggable slider',
       'Hover effects'
     ],
-    link: 'https://www.deplacemaison.com/'
+    link: '/practice/ableton',
+    externalLink: 'https://www.deplacemaison.com/'
   },
   {
     id: 9,
     label: 'Red Square',
     subLabel: 'Agency home page',
     learnt: ['Minimal design', 'Scroll animations', 'Hover effects'],
-    link: 'https://www.redsquareagency.com/'
+    link: '/practice/ableton',
+    externalLink: 'https://www.redsquareagency.com/'
   },
   {
     id: 10,
@@ -102,6 +111,7 @@ export const challengesData = [
       'Image lightboxes',
       'Content carousel'
     ],
-    link: 'https://www.nintendo.com/games/detail/stardew-valley-switch/'
+    link: '/practice/ableton',
+    externalLink: 'https://www.nintendo.com/games/detail/stardew-valley-switch/'
   }
 ];
