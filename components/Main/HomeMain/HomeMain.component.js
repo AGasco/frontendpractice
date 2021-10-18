@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { challengesData } from './HomeMain.config';
+import { challengesData } from '../../../data/main';
 import styles from './HomeMain.module.scss';
 
 function HomeMainComponent() {

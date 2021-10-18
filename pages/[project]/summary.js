@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Summary from '../../components/Main/Summary/Summary.component';
-import { challengesData } from '../../components/Main/HomeMain/HomeMain.config';
+import { challengesData } from '../../data/main';
 
 const SummaryPage = () => {
   const [data, setData] = useState([]);
