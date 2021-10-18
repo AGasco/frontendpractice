@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './Summary.module.scss';
 
-function SummaryComponent({ data }) {
+function SummaryComponent({ data = {} }) {
   const { label, subLabel, description, learnt, externalLink, link } = data;
 
   return (

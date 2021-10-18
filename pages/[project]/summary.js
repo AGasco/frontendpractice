@@ -11,9 +11,17 @@ const SummaryPage = () => {
   useEffect(() => {
     const currentData = challengesData?.find((p) => p.link.includes(project));
     setData(currentData);
-  }, []);
+  }, [challengesData]);
 
   return <Summary data={data} />;
+};
+
+export const getServerSideProps = (ctx) => {
+  return {
+    props: {
+      params: ctx.params
+    }
+  };
 };
 
 export default SummaryPage;
