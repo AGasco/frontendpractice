@@ -1,0 +1,60 @@
+.container {
+  min-width: 1100px;
+  width: 70%;
+  height: 80%;
+  background-color: lightcyan;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+
+  & > img {
+    flex: 1.2;
+    background-color: white;
+  }
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px 35px;
+
+  .summaryLabel {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .type {
+    font-weight: 700;
+
+    & > span {
+      font-weight: 400;
+    }
+  }
+
+  .learntList {
+    font-weight: 400;
+    margin: 5px 0;
+  }
+
+  .links {
+    position: absolute;
+    bottom: 5%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    & > * {
+      margin: 0 20px;
+      background-color: #202020;
+      color: white;
+      font-weight: 600;
+      width: 40%;
+      padding: 15px 30px;
+      border-radius: 5px;
+    }
+  }
+}
