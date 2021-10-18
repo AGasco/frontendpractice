@@ -12,7 +12,7 @@ function HomeMainComponent() {
       </div>
       <ul className={styles.list}>
         {challengesData.map((c) => (
-          <Link href={c.link}>
+          <Link href={`${c.link}/summary`} key={`#${c.id}`}>
             <a className={styles.element}>
               <div>{`#${c.id} ${c.label}`}</div>
               <div>{c.subLabel}</div>

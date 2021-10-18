@@ -9,7 +9,7 @@ export const challengesData = [
       'Unique grid layout',
       'Multi-column footer'
     ],
-    link: '/practice/ableton',
+    link: '/ableton',
     externalLink: 'https://www.ableton.com/en/about/'
   },
   {
@@ -22,7 +22,7 @@ export const challengesData = [
       'Color choices',
       'Layout practice'
     ],
-    link: '/practice/ableton',
+    link: '/starbucks',
     externalLink: 'https://www.starbucks.com/rewards'
   },
   {
@@ -35,7 +35,7 @@ export const challengesData = [
       'Dropdown menu',
       'Menu toggle on scroll'
     ],
-    link: '/practice/ableton',
+    link: '/monogram',
     externalLink: 'https://monogramcc.com/shop/'
   },
   {
@@ -48,7 +48,7 @@ export const challengesData = [
       'Layout practice',
       'Hover states'
     ],
-    link: '/practice/ableton',
+    link: '/monstercat',
     externalLink: 'https://www.monstercat.com/release/MCLP017'
   },
   {
@@ -56,7 +56,7 @@ export const challengesData = [
     label: 'Canal Street Market',
     subLabel: 'Home page',
     learnt: ['Unique layout', 'Hover animations', 'Typography choices'],
-    link: '/practice/ableton',
+    link: '/canal-street-market',
     externalLink: 'https://canalstreet.market/'
   },
   {
@@ -64,7 +64,7 @@ export const challengesData = [
     label: 'Qrates',
     subLabel: 'Why page',
     learnt: ['Accordions', 'Grid style layout', 'Unique design'],
-    link: '/practice/ableton',
+    link: '/qrates',
     externalLink: 'https://qrates.com/why'
   },
   {
@@ -77,7 +77,7 @@ export const challengesData = [
       'Fixed content',
       'Minimal layout'
     ],
-    link: '/practice/ableton',
+    link: '/backstage-talks',
     externalLink: 'https://backstagetalks.com/'
   },
   {
@@ -90,7 +90,7 @@ export const challengesData = [
       'Draggable slider',
       'Hover effects'
     ],
-    link: '/practice/ableton',
+    link: '/deplace-maison',
     externalLink: 'https://www.deplacemaison.com/'
   },
   {
@@ -98,7 +98,7 @@ export const challengesData = [
     label: 'Red Square',
     subLabel: 'Agency home page',
     learnt: ['Minimal design', 'Scroll animations', 'Hover effects'],
-    link: '/practice/ableton',
+    link: '/red-square',
     externalLink: 'https://www.redsquareagency.com/'
   },
   {
@@ -111,7 +111,7 @@ export const challengesData = [
       'Image lightboxes',
       'Content carousel'
     ],
-    link: '/practice/ableton',
+    link: '/nintendo',
     externalLink: 'https://www.nintendo.com/games/detail/stardew-valley-switch/'
   }
 ];
