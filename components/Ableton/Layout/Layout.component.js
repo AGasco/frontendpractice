@@ -1,13 +1,12 @@
-import Head from '../Head/Head.component';
-import Navbar from '../Navbar/Navbar.component';
-import Footer from '../Footer/Footer.component';
+import Head from '../../Main/Head/Head.component';
+import Footer from '../../Main/Footer/Footer.component';
 
 function HomeLayoutComponent({ children }) {
   return (
     <>
       {/* TODO: Add Navbar and Footer components */}
       <Head />
-      <Navbar />
+      <div className="navbar" />
       <main>{children}</main>
       <Footer />
     </>

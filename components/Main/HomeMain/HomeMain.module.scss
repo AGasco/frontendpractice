@@ -1,24 +1,3 @@
-.header {
-  position: absolute;
-  top: 2%;
-  width: 100%;
-  font-family: 'Dancing Script';
-  font-weight: 600;
-  font-size: 2.5rem;
-  display: flex;
-  justify-content: center;
-
-  & .brand {
-    position: absolute;
-    cursor: pointer;
-    left: 2%;
-  }
-
-  span {
-    text-align: center;
-  }
-}
-
 .container {
   width: 100%;
   height: 100%;
