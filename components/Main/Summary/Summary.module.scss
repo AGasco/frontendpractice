@@ -1,9 +1,10 @@
 .container {
   min-width: 1280px;
   width: 80%;
-  height: 80%;
+  min-height: 640px;
+  height: 70vh;
   background-color: lightcyan;
-  margin: 5% auto;
+  margin: 100px auto 0;
   display: flex;
   justify-content: center;
 

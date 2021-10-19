@@ -1,10 +1,27 @@
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { challengesData } from '../../data/main';
 
-const Summary = () => {
+const DemoPage = () => {
+  const [Component, setComponent] = useState();
   const router = useRouter();
   const { project } = router.query;
 
-  return <p>{`Welcome to ${project}'s demo`}</p>;
+  useEffect(() => {
+    const { component } = challengesData?.find((p) => p.link.includes(project));
+    console.log('component', component);
+    setComponent(component);
+  }, [challengesData]);
+
+  return Component ? Component : <p>Sorry, this page is not built yet</p>;
 };
 
-export default Summary;
+export const getServerSideProps = (ctx) => {
+  return {
+    props: {
+      params: ctx.params
+    }
+  };
+};
+
+export default DemoPage;

@@ -1,9 +1,12 @@
+import Ableton from '../components/Ableton/Ableton/Ableton.component';
+
 export const challengesData = [
   {
     id: 1,
     label: 'Ableton',
     subLabel: 'About page',
-    description: 'description',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet mattis condimentum. Aliquam ut ex purus. Maecenas sagittis ex turpis, pretium accumsan urna pretium tincidunt. Quisque elementum a mauris a accumsan. Pellentesque eget justo vel elit aliquam gravida. Nam faucibus accumsan urna et pharetra. Donec hendrerit velit sed nisl interdum tincidunt. Fusce tristique fringilla augue, et consequat est porta vel.',
     learnt: [
       'Typography Choices',
       'Spacing',
@@ -12,7 +15,8 @@ export const challengesData = [
     ],
     link: '/ableton',
     externalLink: 'https://www.ableton.com/en/about/',
-    thumbnail: ''
+    thumbnail: '',
+    component: Ableton
   },
   {
     id: 2,
