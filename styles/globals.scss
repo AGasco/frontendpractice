@@ -24,3 +24,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/fonts/FuturaPT/FuturaPTBook.otf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/fonts/FuturaPT/FuturaPTMedium.otf');
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/fonts/FuturaPT/FuturaPTBold.otf');
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+}

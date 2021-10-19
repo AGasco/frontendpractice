@@ -1,0 +1,62 @@
+@import 'variables';
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid $ableton-grey-color;
+  padding-top: 2.5px;
+  font-family: 'FuturaPT';
+  font-size: 20px;
+  font-weight: 500;
+
+  &__logo {
+    margin: 1px 20px 0 40px;
+  }
+
+  &__left {
+    position: relative;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+
+    & li {
+      margin: 0 20px;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.More {
+  color: $ableton-orange-color;
+  display: flex;
+  align-items: center;
+
+  & > span {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+}
+
+.TryLive {
+  color: $ableton-blue-color;
+  margin-right: 10px;
+}
+
+.Login {
+  font-size: 15px;
+  margin: 0 20px;
+  letter-spacing: 0.5px;
+}

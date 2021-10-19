@@ -4,8 +4,8 @@ export const Logo = () => (
     aria-labelledby="logo"
     class="main-nav__logo__image"
     xmlns="http://www.w3.org/2000/svg"
-    width="45"
-    height="21"
+    width="60"
+    height="30"
     viewBox="0 0 45 21"
   >
     <title id="logo">Ableton Homepage</title>

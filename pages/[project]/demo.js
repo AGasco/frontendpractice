@@ -9,7 +9,6 @@ const DemoPage = () => {
 
   useEffect(() => {
     const { component } = challengesData?.find((p) => p.link.includes(project));
-    console.log('component', component);
     setComponent(component);
   }, [challengesData]);
 
