@@ -10,7 +10,7 @@ const DemoPage = () => {
   useEffect(() => {
     const { component } = challengesData?.find((p) => p.link.includes(project));
     setComponent(component);
-  }, [challengesData]);
+  }, []);
 
   return Component ? Component : <p>Sorry, this page is not built yet</p>;
 };

@@ -1,0 +1,21 @@
+@import 'variables';
+
+.hero {
+  width: 87%;
+  height: 860px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  div {
+    text-align: center;
+    font-size: 130px;
+    font-weight: 600;
+    color: $ableton-orangehighlight-color;
+    margin-top: -50vh;
+  }
+}
