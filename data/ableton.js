@@ -1,8 +1,10 @@
 export const abletonData = {
   images: {
     home: 'https://ableton-production.imgix.net/about/header.jpg?auto=format&fit=crop&fm=jpg&h=817&ixjsv=1.1.3&w=1063',
-    firstCollage1: '',
-    firstCollage2: '',
+    firstCollage1:
+      'https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=434&ixjsv=1.1.3&w=434',
+    firstCollage2:
+      'https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=261&ixjsv=1.1.3&w=348',
     youtube: '',
     secondCollage1: '',
     secondCollage2: '',

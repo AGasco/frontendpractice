@@ -12,6 +12,8 @@
   margin: 0;
 
   .main {
+    width: 100%;
+    min-width: 1400px;
     max-width: 100rem;
     background-color: $white-color;
     margin: 0 auto;
